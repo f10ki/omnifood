@@ -54,6 +54,7 @@ medium: 11px
 html {
   /* 1rem=16px, change it to 10px, so fontsize=10/16=0.625 */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -61,6 +62,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 /* GENERAL REUSABLE COMPONENTS */
